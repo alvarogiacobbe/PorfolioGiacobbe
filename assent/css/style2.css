@@ -1,10 +1,10 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-* {
+/* * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-}
+} */
 
 body {
 /*    background-color: #021a36; */
@@ -66,8 +66,16 @@ body {
 }
 
 table {margin: auto;}
-td {padding: 10px;}  
+th { font-size: 30px;
+     color: white;
+     text-decoration: underline;
+     text-decoration-color: skyblue;}
 
+td {padding: 10px;}  
+footer { background-color: white;
+         color: black;}
+
+p{ color:white}
 .foto img{
     height: 200px;
     width: 200px;
@@ -124,7 +132,4 @@ td {padding: 10px;}
 
 
 }
-#contacto {
-    width: 100px;
-    
-}
+#id 
